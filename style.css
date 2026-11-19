@@ -1,0 +1,75 @@
+
+/* CONFIGURAÇÕES GERAIS */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* CAPA */
+.capa {
+    background-color: #a90070;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+/* IMAGEM DA CAPA */
+.imagem-capa {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.capa h1 {
+    font-size: 32px;
+}
+
+/* BOTÃO */
+.botao {
+    display: inline-block;
+    background-color: white;
+    color: #a90070;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #dddddd;
+}
+
+/* SEÇÕES */
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* TÍTULOS */
+h2 {
+    color: #a90070;
+}
+
+/* CAIXA DE CONTEÚDO */
+.caixa {
+    background-color: #fce5f2;
+    padding: 15px;
+    border-left: 5px solid #a90070;
+}
+
+/* LISTA */
+li {
+    margin-bottom: 10px;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
